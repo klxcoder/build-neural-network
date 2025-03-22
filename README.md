@@ -1,5 +1,5 @@
 # Tutorial
-  - [Building a neural network FROM SCRATCH (no Tensorflow/Pytorch, just numpy & math)](https://www.youtube.com/watch?v=w8yWXqWQYmU)
+  - [Neural Networks from Scratch - P.1 Intro and Neuron Code)](https://youtu.be/Wo5dMEP_BbI?list=PLQVvvaa0QuDcjD5BAw2DxE6OF2tius3V3) by [sentdex](https://www.youtube.com/@sentdex)
 
 # Create conda env
 
