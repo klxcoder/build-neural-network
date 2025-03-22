@@ -1,7 +1,9 @@
-def get_params(layer_sizes):
+from typing import List, Dict
+
+def get_params(layer_sizes: List[int]) -> Dict[str, int]:
     # layer_sizes[0] is input layer
-    weights = 0
-    biases = 0
+    weights: int = 0
+    biases: int = 0
     for i in range(len(layer_sizes) - 1):
         weights += layer_sizes[i] * layer_sizes[i + 1]
         biases += layer_sizes[i + 1]
