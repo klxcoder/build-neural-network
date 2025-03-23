@@ -1,7 +1,7 @@
 import math
 
 softmax_output = [0.7, 0.1, 0.2]
-# target_class = 0
+target_class = 0
 target_output = [1, 0, 0]
 loss = -(
     + math.log(softmax_output[0]) * target_output[0]
@@ -9,4 +9,5 @@ loss = -(
     + math.log(softmax_output[2]) * target_output[2]
 )
 
-print(loss) # 0.35667494393873245
+print(loss)                                    # 0.35667494393873245
+print(-math.log(softmax_output[target_class])) # 0.35667494393873245
